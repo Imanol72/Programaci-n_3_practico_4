@@ -1,0 +1,43 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Logs ===
+logs
+*.log
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Dependency directories ===
+API-REST-DB/node_modules/
+FRONT-REACT/node_modules/
+
+# === Environment variables ===
+.env
+API-REST-DB/.env
+FRONT-REACT/.env
+
+# === Build outputs ===
+dist/
+build/
+API-REST-DB/dist/
+FRONT-REACT/dist/
+
+# === Coverage (tests) ===
+coverage/
+*.lcov
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.tgz
+*.zip
+*.tar
